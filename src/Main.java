@@ -10,7 +10,8 @@ public class Main {
         }
         char [] res = new char[SB.length()];
         SB.getChars(0,SB.length(),res,0);
-    return res;}
+    return res;}   //very hard readable code to convert from StringBuilder to String you can use toString() method
+                    //I don't sure that this code works correctly
 
     public static void main(String[] args) {
         String a = "abracadabra";  
